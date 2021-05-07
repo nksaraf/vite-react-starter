@@ -14,7 +14,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "@twind/typescript-plugin",
+        "attributes": ["tw"]
+      }
+    ]
   },
   "include": ["./src"]
 }
